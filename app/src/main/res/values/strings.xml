@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+
+    <string name="sign_in_to_your_account_tv_text">Sign in to CV</string>
+    <string name="email_address_required_et_hint_text">Username/Email (required)</string>
+    <string name="password_required_et_hint_text">Password (required)</string>
+    <string name="forgot_password_tv_text">Forgot password?</string>
+    <string name="sign_in_btn_text">Sign In</string>
+    <string name="create_a_new_account_btn_text">Create a new account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_tab_title">Home</string>
+    <string name="about_tab_title">About Me</string>
+    <string name="work_tab_title">Work</string>
+    <string name="contact_tab_title">Contact</string>
+
+    <string name="work_experience_text"><b>Languages</b>: Kotlin, Java\n<b>Web Services</b>: RESTful API, Microservices\n<b>Design Patterns</b>: Dependency Injection, Koin, Adapter, Observer,Factory, Builder, Singleton.\n<b>Architecture</b>: MVVM, MVP, MVC\n<b>Tools</b>: Android Studio, Gradle, Github, Firebase, AdMob, MockK.</string>
+    <string name="career_note_text">A Professional Android developer with 5+ years of experience in developing mobile apps. Proficient in Android SDK. A team player who is attentive to detail and has the ability to work in a fast-paced environment.</string>
+    <string name="about_me_text">A Professional Android developer with 5+ years of experience in developing mobile apps. Proficient in Android SDK, Java, Kotlin, and SQL. A team player who is attentive to detail and has the ability to work in a fast-paced environment.</string>
+
+    <string name="master_of_science_in_computer_science">Master of Science in Computer Science</string>
+    <string name="maharishi_international_university">Maharishi International University</string>
+    <string name="asu_text">Ain Shams University</string>
+    <string name="bsc_text">Bachelor of Science in Computer Science and Statistics</string>
+    <string name="amit_text">Android Development Diploma (2015)</string>
+    <string name="cisco_text">IT Essentials (ITTC/CAPMAS) (2015)</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_experience_button">Add Experience Button</string>
+    <string name="home_depot">The Home Depot</string>
+    <string name="home_depot_title">Senior Android Engineer</string>
+    <string name="jun_2022_present">Jun 2022 - Present</string>
+    <string name="kforce">KForce Inc</string>
+    <string name="kfroce_title">Senior Android Engineer</string>
+    <string name="vodafone">Vodafone (VOIS)</string>
+    <string name="vodafone_title_sr">Senior Android Developer</string>
+    <string name="jun_2020_nov_2021">Jun 2020 - Nov 2021</string>
+    <string name="vodafone_title">Android Developer</string>
+    <string name="dec_2017_jun_2020">Dec 2017 - Jun 2020</string>
+    <string name="phone">+1(641)233–2395</string>
+    <string name="email">Abanoub.N.George@gmail.com</string>
+    <string name="github_link_title">github.com/Bebooo43</string>
+    <string name="github_link">https://github.com/Bebooo43</string>
+    <string name="linkedIn_link_title">linkedin.com/in/abanoub-n-george</string>
+    <string name="linkedIn_link">https://www.linkedin.com/in/abanoub-n-george</string>
+    <string name="pdf_link">https://drive.google.com/file/d/1WYgQ9hTkpCs3ZxDgiMc2qchbDnESXjbk/view</string>
+    <string name="title_activity_web">WebActivity</string>
+
+</resources>
