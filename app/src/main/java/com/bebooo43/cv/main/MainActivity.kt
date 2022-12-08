@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.telegramBtn -> openExternalApp("http://www.telegram.me/DDefalt")
             R.id.linkedinBtn -> openExternalApp("https://www.linkedin.com/in/abanoub-n-george/")
-            R.id.whatsappBtn -> openExternalApp("https://api.whatsapp.com/send?phone=+16412332395")
+            R.id.whatsappBtn -> openExternalApp("https://wa.me/+16412332395")
             R.id.gmailBtn -> sendEmail(arrayListOf("Abanoub.N.George@gmail.com"), "", "")
         }
         return super.onOptionsItemSelected(item)
