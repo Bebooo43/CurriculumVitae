@@ -123,8 +123,7 @@
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="50dp"
                     android:layout_height="40dp"
-                    app:srcCompat="@drawable/linkedin_contact"
-                    />
+                    app:srcCompat="@drawable/linkedin_contact" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -140,7 +139,7 @@
                         android:ellipsize="end"
                         android:maxLines="2"
                         android:text="@string/linkedIn_link_title"
-                        android:textSize="18sp" />
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="match_parent"

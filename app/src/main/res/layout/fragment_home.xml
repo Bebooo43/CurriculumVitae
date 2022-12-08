@@ -45,7 +45,7 @@
                         android:fontFamily="sans-serif-black"
                         android:gravity="center_vertical"
                         android:text="Abanoub Awad"
-                        android:textSize="18sp" />
+                        android:textSize="30sp" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                         android:fontFamily="sans-serif-condensed-medium"
                         android:gravity="center_vertical"
                         android:text="Sr. Android Engineer"
-                        android:textSize="18sp" />
+                        android:textSize="20sp" />
                 </LinearLayout>
 
             </RelativeLayout>

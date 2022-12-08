@@ -50,7 +50,10 @@ class WorkFragment : Fragment() {
     }
 
     private fun addWork(work: Work) {
-        (binding.rv.adapter as? WorkAdapter)?.addWork(work)
+        binding.rv.apply {
+            (adapter as? WorkAdapter)?.addWork(work)
+            smoothScrollToPosition(0)
+        }
     }
 
     private val workList by lazy {

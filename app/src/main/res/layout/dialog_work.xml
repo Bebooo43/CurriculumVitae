@@ -2,89 +2,86 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:orientation="vertical">
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Company Title" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="20dp"
-            android:paddingHorizontal="16dp"
-            android:text="Company Title"
-            android:textSize="14sp" />
+            app:boxStrokeColor="@color/black"
+            app:hintEnabled="false">
 
-        <EditText
-            android:id="@+id/dialogTitleET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="4dp"
-            android:cursorVisible="true"
-            android:gravity="center|start|bottom"
-            android:inputType="textEmailAddress"
-            android:maxLength="50"
-            android:minHeight="48dp"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:textSize="18sp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialogTitleET"
+                android:maxLength="50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="20dp"
-            android:paddingHorizontal="16dp"
-            android:text="Position Title"
-            android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/dialogPositionET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="20dp"
-            android:cursorVisible="true"
-
-            android:gravity="center|start|bottom"
-            android:inputType="textEmailAddress"
-            android:maxLength="50"
-            android:minHeight="48dp"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:textSize="18sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
             android:layout_marginTop="20dp"
-            android:paddingHorizontal="16dp"
-            android:text="Duration"
-            android:textSize="14sp" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Position Title" />
 
-        <EditText
-            android:id="@+id/dialogDurationET"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="20dp"
-            android:cursorVisible="true"
-            android:gravity="center|start|bottom"
-            android:inputType="textEmailAddress"
-            android:maxLength="50"
-            android:minHeight="48dp"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="8dp"
-            android:textSize="18sp" />
+            app:boxStrokeColor="@color/black"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialogPositionET"
+                android:maxLength="50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Duration" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/black"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialogDurationET"
+                android:maxLength="50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
